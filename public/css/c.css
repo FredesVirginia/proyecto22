@@ -1,0 +1,13 @@
+.sidebar-dropdown-submenu{
+    display: none;
+    padding-left: 20px;
+}
+
+.sidebar-dropdown-submenu a{
+    margin-top: 0rem!important;
+    margin-bottom: 0rem!important;
+}
+
+.sidebar-dropdown-submenu li.active .fa-chevron-down::before{
+    transform: rotate(180deg);
+}
